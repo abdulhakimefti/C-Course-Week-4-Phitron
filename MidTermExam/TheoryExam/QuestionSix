@@ -1,0 +1,17 @@
+Q-6:
+Answer:
+
+	Data size:
+	One integer = 4 bytes.
+	One long long = 8 bytes.
+	One character = 1 byte
+
+	There are 100 integer elements in a array
+	If 1 integer take 4 byte then 	100 integer data size:400 bytes.
+
+	Again there are 100 long long integer elements in a array
+	If 1 long long integer take 8 byte then 100 long long integer data size:800 bytes.
+
+
+	Again there are 100 character elements in a array.
+	If 1 character take 8 byte then 100 character data size:100 bytes.

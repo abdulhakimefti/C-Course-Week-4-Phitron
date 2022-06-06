@@ -1,0 +1,28 @@
+// Q-5:
+// Answer: 
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main() {
+
+    int is_done = false;
+    char a[10];
+    gets(a);
+    int len = strlen(a);
+    int i =0;
+    while (a[i]) {
+        if (isdigit(a[i])) {
+          is_done = true; 
+        }
+        i++;
+    }
+    
+
+    if (!is_done) {
+        printf("%s",a);
+    }
+
+    return 0;
+}

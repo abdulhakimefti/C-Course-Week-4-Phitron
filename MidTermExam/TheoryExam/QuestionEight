@@ -1,0 +1,5 @@
+Q-8:
+Answer:
+null string is a character which is  the ending of a string ‘0\’। 
+where null '\0' is present the  string will end there
+We can create a null string by this
